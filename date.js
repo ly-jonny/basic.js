@@ -22,3 +22,10 @@ console.log(currentdate)
 console.log(Date.now()/1000) // last m decimal ayega 
 console.log(Math.floor(Date.now()/1000))  //overcome of decimal point
 
+//                      important and most useble
+
+console.log(newdate.toLocaleString('default',{
+    weekday:"long",
+    
+}))
+
